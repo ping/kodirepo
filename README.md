@@ -15,4 +15,4 @@ The following addons are available here:
 - [__EstouchyMiniMod__](krypton/datadir/skin.estouchyminimod/skin.estouchyminimod-0.2.5.zip) skin.estouchyminimod v0.2.5
 
 ----
-_Generated with [instant-kodi-repo](https://github.com/ping/instant-kodi-repo/) from_ [``c422944``](https://github.com/ping/kodirepo/commit/c422944651cdee0493700ce3de7e275ec4eeaf9b)
+_Generated with [instant-kodi-repo](https://github.com/ping/instant-kodi-repo/) from_ [``ad0d81a``](https://github.com/ping/kodirepo/commit/ad0d81aec10600bb254b294cbcd05435fe1061d4)
