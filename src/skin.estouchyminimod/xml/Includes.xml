@@ -1699,8 +1699,11 @@
 			<itemgap>-1</itemgap>
 			<onup>100</onup>
 			<ondown>9002</ondown>
-			<onleft>9</onleft>
-			<onright>60</onright>
+			<!-- <onleft>9</onleft>
+			<onright>60</onright> -->
+			<pagecontrol>199</pagecontrol>
+			<onleft>199</onleft>
+			<onright>199</onright>
 			<visible>Skin.String(SkinSettings,1)</visible>
 			<control type="radiobutton" id="102">
 				<description>Show LiveTV</description>
@@ -1857,6 +1860,24 @@
 				<textoffsetx>20</textoffsetx>
 			</control>
 		</control>
+		<control type="scrollbar" id="199">
+			<posx>26r</posx>
+			<posy>140</posy>
+			<width>26</width>
+			<height>630</height>
+			<texturesliderbackground colordiffuse="30FFFFFF">white.png</texturesliderbackground>
+			<texturesliderbar colordiffuse="grey">white.png</texturesliderbar>
+			<texturesliderbarfocus colordiffuse="blue">white.png</texturesliderbarfocus>
+			<textureslidernib>blank.png</textureslidernib>
+			<textureslidernibfocus>blank.png</textureslidernibfocus>
+			<onleft>5</onleft>
+			<onright>5</onright>
+			<showonepage>false</showonepage>
+			<orientation>vertical</orientation>
+			<animation effect="fade" time="150">Visible</animation>
+			<animation effect="fade" time="150">Hidden</animation>
+			<visible>Skin.String(SkinSettings,1)</visible>
+		</control>
 		<control type="grouplist" id="200">
 			<description>control area</description>
 			<posx>390</posx>
@@ -1866,8 +1887,11 @@
 			<itemgap>-1</itemgap>
 			<onup>200</onup>
 			<ondown>9002</ondown>
-			<onleft>9</onleft>
-			<onright>60</onright>
+			<!-- <onleft>9</onleft>
+			<onright>60</onright> -->
+			<pagecontrol>299</pagecontrol>
+			<onleft>299</onleft>
+			<onright>299</onright>
 			<visible>Skin.String(SkinSettings,2)</visible>
 			<control type="button" id="202">
 				<description>Home Addon Button</description>
@@ -2094,6 +2118,24 @@
 				<textoffsetx>20</textoffsetx>
 				<onclick>Skin.SetAddon(HomeAddonButton15,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
 			</control>
+		</control>
+		<control type="scrollbar" id="299">
+			<posx>26r</posx>
+			<posy>140</posy>
+			<width>26</width>
+			<height>630</height>
+			<texturesliderbackground colordiffuse="30FFFFFF">white.png</texturesliderbackground>
+			<texturesliderbar colordiffuse="grey">white.png</texturesliderbar>
+			<texturesliderbarfocus colordiffuse="blue">white.png</texturesliderbarfocus>
+			<textureslidernib>blank.png</textureslidernib>
+			<textureslidernibfocus>blank.png</textureslidernibfocus>
+			<onleft>5</onleft>
+			<onright>5</onright>
+			<showonepage>false</showonepage>
+			<orientation>vertical</orientation>
+			<animation effect="fade" time="150">Visible</animation>
+			<animation effect="fade" time="150">Hidden</animation>
+			<visible>Skin.String(SkinSettings,2)</visible>
 		</control>
 		<control type="grouplist" id="300">
 			<description>control area</description>
