@@ -341,8 +341,8 @@
 					<alttexturefocus colordiffuse="red">osd_record.png</alttexturefocus>
 					<alttexturenofocus colordiffuse="red">osd_record.png</alttexturenofocus>
 					<usealttexture>Player.Record</usealttexture>
-					<onclick>PVR.ToggleRecordPlayingChannel</onclick>
-					<visible>PVR.CanRecordPlayingChannel</visible>
+					<onclick>PlayerControl(Record)</onclick>
+					<visible>Player.CanRecord</visible>
 				</control>
 			</control>
 		</control>

@@ -38,14 +38,16 @@
 		<control type="grouplist" id="5">
 			<posx>0</posx>
 			<posy>60</posy>
-			<width>750</width>
+			<width>750</width><!-- 26b864e -->
 			<height>630</height>
 			<itemgap>-1</itemgap>
-			<pagecontrol>60</pagecontrol>
-			<onleft>60</onleft>
-			<onright>60</onright>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<pagecontrol>60</pagecontrol><!-- 26b864e -->
+			<onleft>60</onleft><!-- 26b864e -->
+			<onright>60</onright><!-- 26b864e -->
 			<onup>5</onup>
-			<ondown>9000</ondown>
+			<ondown>9000</ondown><!-- 26b864e -->
 		</control>
 		<control type="scrollbar" id="60">
 			<posx>762</posx>

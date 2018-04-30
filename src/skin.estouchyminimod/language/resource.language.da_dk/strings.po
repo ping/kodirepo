@@ -60,10 +60,6 @@ msgctxt "#31017"
 msgid "PVR info"
 msgstr "PVR-information"
 
-msgctxt "#31018"
-msgid "Player process info"
-msgstr "Procesinformation for afspilning"
-
 msgctxt "#31020"
 msgid "Pixel format"
 msgstr "Pixelformat"
@@ -83,10 +79,6 @@ msgstr "Informationsliste"
 msgctxt "#31038"
 msgid "Login"
 msgstr "Brugernavn"
-
-msgctxt "#31039"
-msgid "Updated:"
-msgstr "Opdateret:"
 
 msgctxt "#31044"
 msgid "FAST FORWARD"
