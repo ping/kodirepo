@@ -17,4 +17,5 @@ script:
 branches:
   only:
     - master
+    - krypton
     # Add more branches if required

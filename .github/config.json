@@ -3,6 +3,10 @@
         {
             "name": "master",
             "minversion": "17.9.0"
+        },
+        {
+            "name": "krypton",
+            "minversion": "17.0.0"
         }
     ]
 }
